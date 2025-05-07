@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.0004430018990463439,
+        "error": 0.0004917685907431107,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -10,15 +10,17 @@
             "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "fn": 179,
+        "fn": 159,
         "include_baseline_error": false,
         "n": 180,
         "outlier_excluded": [
+            41,
+            2,
             27
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.03566327035272426
+        "value": 0.03370269916036572
     },
     "Ar37": {
         "error": 0.005607929293204356,
