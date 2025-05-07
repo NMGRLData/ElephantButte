@@ -1,57 +1,132 @@
 {
     "Ar36": {
-        "error": 0.000990380547740173,
+        "error": 0.001183135512369595,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 3,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 0.6277716137630573
+        "fn": 340,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.6277960899259316
     },
     "Ar37": {
-        "error": 0.008201444487461542,
+        "error": 0.009379841710706903,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 3,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 25.54165577391558
+        "fn": 339,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            197
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 25.546566344098473
     },
     "Ar38": {
-        "error": 0.0013617587485656685,
+        "error": 0.0015963658157485312,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 3,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 1.286302160835259
+        "fn": 337,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            336,
+            177,
+            181
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 1.2868445085586184
     },
     "Ar39": {
-        "error": 0.010408578431854472,
+        "error": 0.010966685304544034,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
-        "value": 78.93962386589249
+        "fn": 326,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            34,
+            36,
+            165,
+            319,
+            325,
+            11,
+            108,
+            142,
+            251,
+            178,
+            243,
+            56,
+            187,
+            216
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 78.94226820775688
     },
     "Ar40": {
-        "error": 0.025570416544892265,
+        "error": 0.048966672227248355,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
-            "iterations": 2,
-            "std_devs": 2
+            "iterations": 1,
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
-        "value": 320.99667429362455
+        "fit": "parabolic",
+        "fn": 327,
+        "include_baseline_error": true,
+        "n": 340,
+        "outlier_excluded": [
+            0,
+            33,
+            260,
+            165,
+            134,
+            8,
+            232,
+            233,
+            235,
+            182,
+            312,
+            316,
+            253
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 321.18901315738447
     }
 }
