@@ -1,0 +1,240 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "Julia Ricci",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "baseline_modifiers": {
+        "AX(CDD)": {
+            "function": "1e-7*x",
+            "function_err": "countingstatistics",
+            "variable": "ar40 + ar39"
+        },
+        "L2(CDD)": {
+            "function": "7e-9*x",
+            "function_err": "countingstatistics",
+            "variable": "ar40 + ar39"
+        }
+    },
+    "collection_version": "2.0:2.1",
+    "comment": "F:2 / Gms - 25.9 mg",
+    "conditionals": [
+        {
+            "analysis_types": [
+                "unknown"
+            ],
+            "frequency": 10,
+            "hash_id": 7755037983298690484,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD)<=1e-05"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 10,
+            "hash_id": 5863398424433425962,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD).deflection==3250"
+        },
+        {
+            "analysis_types": [
+                "unknown"
+            ],
+            "frequency": 10,
+            "hash_id": 8768041097720105194,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD)<=1e-06"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -4571966515223722733,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 120,
+            "teststr": "Ar36>10.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 7215841446256707731,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 15,
+            "teststr": "Ar36>20.0"
+        }
+    ],
+    "data_collection_commit": "603835c69bd0f2ce16214fbfdebb5b8a96c75251",
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 0.104
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.10487
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 0.1
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 0.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2026-08-21T20:39:16",
+                "title": "iServer Hum.",
+                "value": 53.4
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2026-08-21T19:55:19",
+                "title": "Building",
+                "value": 95.7
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2026-08-21T20:15:21",
+                "title": "Lab",
+                "value": 79.6
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2026-08-21T15:20:38",
+                "title": "Cold Finger",
+                "value": -197.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2026-08-21T21:13:27",
+                "title": "iServer Temp.",
+                "value": 69.8
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2026-08-21T21:10:29",
+                "title": "Coolant",
+                "value": 15.9
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2026-08-21T11:02:52",
+                "title": null,
+                "value": 35.6727716727717
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "felix_diode.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "73321",
+    "increment": 10,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-353",
+    "irradiation_level": "F",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000",
+            "units": "fA"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": 0.0,
+    "mass_spectrometer": "Felix",
+    "material": "Groundmass",
+    "measurement": "felix_Syn340_center.py",
+    "meta_commit": "59041d44268651b2c3fe2096e2e70b0cf4c1a7a1",
+    "note": "",
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "Koning, D",
+    "project": "Elephant Butte",
+    "queue_conditionals_name": "",
+    "repository_identifier": "ElephantButte",
+    "rlocation": "",
+    "sample": "EB-349",
+    "source": {
+        "emission": 922.719,
+        "trap": 197.923
+    },
+    "spec_sha": "21a7b087bf73652556bdd0b3e7c6d4b029f4f2f6",
+    "time_zero_timestamp": "2026-08-21T21:07:53.013806",
+    "timestamp": "2026-08-21T21:16:41.189283",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "Julia Ricci",
+    "uuid": "854f1ae2-a0b9-475a-8148-531cc328aaf7",
+    "whiff_result": null
+}
